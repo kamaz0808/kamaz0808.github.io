@@ -1,40 +1,145 @@
-html, body {
-    height:100%;
-    background-image:url(konfood.png);
-    background-size: cover;
+html,body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 * {
-    padding:0;
+    padding: 0;
     margin:0;
 }
 
-p {
-    font-weight: bold;
-    font-size: 4em;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-button {
+.anasehife {
+    width:auto;
+    height:6468px;
+    border: solid black 0.5px;
     background-color: white;
-    font-size: 2em;
-    width: calc(100%-600px);
-    padding:0 50px;
-    margin-left: 350px;
-    text-decoration: none;
-    color: black;
 }
 
-button:hover {
-    background-color: limegreen;
-    text-decoration: none;
-    color: black;
+
+
+.header {
+    height:calc(100%-800px);
+    width:auto;
+    position: sticky;
+    top:0;
+    border: solid black 0.1px;
+    background-color: #99CBFE;
+}
+
+.logo {
+    background-image:url(img/beach-icon.png);
+    height:100px;
+    width:100px;
+    background-size: contain;
+    position:relative;
+    top:20px;
+    left:50px;
+}
+
+#logo {
+    font-size:30px;
+    padding-left:150px;
+    position: relative;
+    bottom: 50px;
+}
+
+/* Haqqqimizda */
+.qutu1 {
+    height: 30px;
+    width:auto;
+    padding-left: 600px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom:80px;
+
 }
 
 a {
+    color: white;
     text-decoration: none;
-    color: black;
+    font-size: 35px;
+}
+/* 
+Birinci sekil */
+
+.Sekilesas {
+    width:auto;
+    height:1400px;
+    background-image:url(img/holding.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding-top: 170px;
+}
+
+#Haqqi {
+    font-size: 50px;
+    color: white;
+    padding-top: 250px;
+    padding-left: 80px;
+}
+
+
+.Sekilesas1 {
+    width:auto;
+    height:1600px;
+    background-image:url(img/bank.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding-top: 170px;
+}
+
+#Bank {
+    font-size: 50px;
+    color: white;
+    padding-top: 250px;
+    padding-left: 80px;
+}
+
+
+/* Sekil 3 */
+
+.Sekilesas2 {
+    width:auto;
+    height:1300px;
+    background-image:url(img/sigorta.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding-top: 170px;
+}
+
+#Sigorta {
+    font-size: 50px;
+    color: white;
+    padding-top: 350px;
+    padding-left: 80px;
+}
+
+.Sekilesas3 {
+    width:auto;
+    height:1300px;
+    background-image:url(img/tikinti.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:bottom;
+    padding-top: 170px;
+}
+
+#Tikinti {
+    font-size: 50px;
+    color: white;
+    padding-top: 250px;
+    padding-left: 80px;
+
+}
+
+
+#font {
+    font-size: 30px;
+    color: white;
+    padding-left:80px;
 }
