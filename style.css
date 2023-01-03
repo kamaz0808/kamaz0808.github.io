@@ -1,0 +1,32 @@
+html,body {
+    height: 100%;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+
+.anasehife {
+    height:calc(100%-2000px);
+    border:solid black 2px;
+}
+
+.basliq {
+    height:200px;
+    width:auto;
+    background-color: aqua;
+}
+
+.sekil {
+    background-image:url(img/beach-icon.png);
+    background-size: contain;
+    height:150px;
+    width:150px;
+}
+
+.h1 {
+    padding-left:150px;
+    position: relative;
+    bottom:85px;
+}
