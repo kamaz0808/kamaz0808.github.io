@@ -8,10 +8,12 @@ html,body {
 }
 
 .anasehife {
-    height:calc(100%-2000px);
+    height:200px;
     border:solid black 2px;
 }
 
+
+ /* foooterr hissesi */
 .basliq {
     height:200px;
     width:auto;
@@ -29,4 +31,44 @@ html,body {
     padding-left:150px;
     position: relative;
     bottom:85px;
+}
+
+.qutu {
+    height: 50px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding-left:500px;
+    position: relative;
+    bottom:145px;
+}
+
+.SS {
+    text-decoration: none;
+    color:black;
+}
+
+.RR {
+    height: 80px;
+    margin-top:-13px;
+}
+
+.clr {
+    font-size: 1.5em;
+}
+
+ /* Sekill */
+.d-block {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: bottom;
+}
+
+
+.carousel-inner {
+    height: 1030px;
 }
