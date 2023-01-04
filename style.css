@@ -72,3 +72,7 @@ html,body {
 .carousel-inner {
     height: 1030px;
 }
+
+h4 {
+    background-color: black;
+}
