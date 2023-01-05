@@ -21,7 +21,7 @@ html,body {
 }
 
 .sekil {
-    background-image:url(img/beach-icon.png);
+    background-image:url(../img/beach-icon.png);
     background-size: contain;
     height:150px;
     width:150px;
@@ -93,7 +93,7 @@ h4 {
     }
     
     .sekil {
-        background-image:url(img/beach-icon.png);
+        background-image:url(../img/beach-icon.png);
         background-size: contain;
         height:80px;
         width:80px;
@@ -151,7 +151,7 @@ h4 {
     }
     
     .sekil {
-        background-image:url(img/beach-icon.png);
+        background-image:url(../img/beach-icon.png);
         background-size: contain;
         height:80px;
         width:80px;
