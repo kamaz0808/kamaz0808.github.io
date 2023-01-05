@@ -76,6 +76,7 @@ html,body {
 .carousel-inner {
     height: 1030px;
     width:auto;
+    /* width:auto; */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
