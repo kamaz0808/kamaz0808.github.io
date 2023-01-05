@@ -61,16 +61,22 @@ html,body {
 }
 
  /* Sekill */
-.d-block {
-    background-size: cover;
+ .d-block {
+    height: 1030px;
+    width:auto;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-position: bottom;
+    background-position: center;
+
 }
 
 
 .carousel-inner {
     height: 1030px;
+    width:auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 h4 {
