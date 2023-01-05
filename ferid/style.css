@@ -18,12 +18,10 @@ html,body {
     height:200px;
     width:auto;
     background-color: aqua;
-    position: sticky;
-    top: 0;
 }
 
 .sekil {
-    background-image:url(img/beach-icon.png);
+    background-image:url(../img/beach-icon.png);
     background-size: contain;
     height:150px;
     width:150px;
@@ -63,7 +61,7 @@ html,body {
 }
 
  /* Sekill */
-.d-block {
+ .d-block {
     height: 1030px;
     width:auto;
     background-size: contain;
@@ -81,10 +79,10 @@ html,body {
     background-position: center;
 }
 
+
 h4 {
     background-color: black;
 }
-
 
 @media (max-width:700px) {
     .anasehife {
@@ -102,7 +100,7 @@ h4 {
     }
     
     .sekil {
-        background-image:url(img/beach-icon.png);
+        background-image:url(../img/beach-icon.png);
         background-size: contain;
         height:80px;
         width:80px;
@@ -160,7 +158,7 @@ h4 {
     }
     
     .sekil {
-        background-image:url(img/beach-icon.png);
+        background-image:url(../img/beach-icon.png);
         background-size: contain;
         height:80px;
         width:80px;

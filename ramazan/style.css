@@ -18,8 +18,6 @@ html,body {
     height:200px;
     width:auto;
     background-color: aqua;
-    position: sticky;
-    top: 0;
 }
 
 .sekil {
@@ -63,7 +61,7 @@ html,body {
 }
 
  /* Sekill */
-.d-block {
+ .d-block {
     height: 1030px;
     width:auto;
     background-size: contain;
