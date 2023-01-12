@@ -1,202 +1,73 @@
 html,body {
-    height: 100%;
+    height:100%;
 }
 
 * {
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
-.anasehife {
-    height:200px;
-    border:solid black 2px;
-}
-
-
- /* foooterr hissesi */
-.basliq {
-    height:200px;
-    width:auto;
-    background-color: aqua;
-    position: sticky;
-    top: 0;
-}
-
-.sekil {
-    background-image:url(img/beach-icon.png);
-    background-size: contain;
-    height:150px;
-    width:150px;
-}
-
-.h1 {
-    padding-left:150px;
-    position: relative;
-    bottom:85px;
-}
-
-.qutu {
-    height: 50px;
-    width: auto;
-
+h1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
-    padding-left:500px;
-    position: relative;
-    bottom:145px;
+    justify-content: center;
+    align-items: center;
 }
 
-.SS {
-    text-decoration: none;
-    color:black;
+/* Buttondaki renkler */
+.renk {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:20px;
+    width:120px;
+    font-size:30px;
 }
 
-.RR {
-    height: 80px;
-    margin-top:-13px;
+.btn {
+    margin-top: 10px;
 }
 
-.clr {
-    font-size: 1.5em;
+/* text-direction yeni yazilarin uzun kicik olmsi */
+.text {
+    margin-top:450px;
 }
 
- /* Sekill */
-.d-block {
-    height: 1030px;
-    width:auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+/* Display yazilarin olcusu 7-ye kimidi */
 
+.display-4 {
+    color: white;
 }
 
+/* kubun idare edilmesi sag ve ya sola cekmek */
 
-.carousel-inner {
-    height: 1030px;
-    width:auto;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.vvv {
+    display: flex;
+    flex-direction:row;
+    height: 100px;
+    width:100px;
+    color: white;
 }
 
-h4 {
-    background-color: black;
+/* Buttondaki renklerden elave aktiv olan ve olmayan buttonlar */
+
+.v1 {
+    height: 50px;
+    width:100px;
+    margin-top: 10px;
 }
 
+/* buttondaki renkli ve renksiz buttonlar */
 
-@media (max-width:700px) {
-    .anasehife {
-        height:100px;
-    }
-    
-    
-     /* foooterr hissesi */
-    .basliq {
-        height:100px;
-        width:auto;
-        background-color: aqua;
-        position: sticky;
-        top: 0;
-    }
-    
-    .sekil {
-        background-image:url(img/beach-icon.png);
-        background-size: contain;
-        height:80px;
-        width:80px;
-    }
-    
-    .h1 {
-        padding-left:80px;
-        position: relative;
-        bottom:45px;
-        font-size: 18px;
-    }
-    
-    .qutu {
-        height: 30px;
-        width: auto;
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    
-        padding-left:200px;
-        position: relative;
-        bottom:75px;
-    }
-    
-    .SS {
-        text-decoration: none;
-        color:black;
-    }
-    
-    .RR {
-        height: 80px;
-        margin-top:-23px;
-    }
-    
-    .clr {
-        font-size: 0.8em;
-    }
+.v2 {
+    font-size: 50px;
 }
 
+/* display blocku ve bloksuzu */
 
-@media (max-width:600px) {
-    .anasehife {
-        height:100px;
-    }
-    
-    
-     /* foooterr hissesi */
-    .basliq {
-        height:100px;
-        width:auto;
-        background-color: aqua;
-        position: sticky;
-        top: 0;
-    }
-    
-    .sekil {
-        background-image:url(img/beach-icon.png);
-        background-size: contain;
-        height:80px;
-        width:80px;
-    }
-    
-    .h1 {
-        padding-left:80px;
-        position: relative;
-        bottom:45px;
-        font-size: 18px;
-    }
-    
-    .qutu {
-        height: 30px;
-        width: auto;
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    
-        padding-left:200px;
-        position: relative;
-        bottom:75px;
-    }
-    
-    .SS {
-        text-decoration: none;
-        color:black;
-    }
-    
-    .RR {
-        height: 80px;
-        margin-top:-23px;
-    }
-    
-    .clr {
-        font-size: 0.8em;
-    }
+.text13 {
+    margin-top: 90px;
 }
+
