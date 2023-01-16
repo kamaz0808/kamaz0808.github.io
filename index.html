@@ -5,153 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>D2ET</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="shortcut icon" type="x-icon" href="img/mmc.jpg"> -->
+    <title>Umid yeri</title>
 </head>
 <body>
-    <h1 class="h1">Buttondaki renkler</h1>
-    <div class="renk">
-        <button class="btn btn-primary">Can ciyer 1</button>
-        <button class="btn btn-secondary">Can ciyer 2</button>
-        <button class="btn btn-success">Can ciyer 3</button>
-        <button class="btn btn-dark">Can ciyer 4</button>
-        <button class="btn btn-light">Can ciyer 5</button>
-        <button class="btn btn-info">Can ciyer 6</button>
-        <button class="btn btn-link">Can ciyer 7</button>
-        <button class="btn btn-warning">Can ciyer 8</button>
-        <button class="btn btn-danger">Can ciyer 9</button>
-    </div>
-    <h1 class="text">text-direction yeni yazilarin  nece yazilmasi</h1>
-    <div class="text1">
-        <p class="text-danger lead text-lowercase">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi in minima iste sequi doloremque dolorem natus accusamus beatae et? Modi, error in perspiciatis ipsa porro adipisci quasi fuga inventore cupiditate hic distinctio iure accusantium quaerat vel tenetur odit et, maiores laudantium eligendi. Consectetur repellendus aliquam nostrum veritatis quasi est voluptates quo inventore. Nemo iure quidem pariatur maiores autem vitae cupiditate.</p>
+    <!-- HEADER HISSESI -->
+    <nav class="bg-danger  navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="../../king/icon.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggler="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#carouselExampleCaptions" class="nav-link">Ana sehife</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Xerite" class="nav-link"> Ünvan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Elaqe" class="nav-link">Əlaqə nömrəsi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <p class="text-info lead text-uppercase">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi in minima iste sequi doloremque dolorem natus accusamus beatae et? Modi, error in perspiciatis ipsa porro adipisci quasi fuga inventore cupiditate hic distinctio iure accusantium quaerat vel tenetur odit et, maiores laudantium eligendi. Consectetur repellendus aliquam nostrum veritatis quasi est voluptates quo inventore. Nemo iure quidem pariatur maiores autem vitae cupiditate.</p>
-
-        <p class="text-success lead text-capitalize">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi in minima iste sequi doloremque dolorem natus accusamus beatae et? Modi, error in perspiciatis ipsa porro adipisci quasi fuga inventore cupiditate hic distinctio iure accusantium quaerat vel tenetur odit et, maiores laudantium eligendi. Consectetur repellendus aliquam nostrum veritatis quasi est voluptates quo inventore. Nemo iure quidem pariatur maiores autem vitae cupiditate.</p>
-    </div>
-    <h1 class="text2">Display yazilarin olcusu 7-ye kimidi</h1>
-    <div class="display1">
-        <p class="display-1 bg-primary">Can ciyer1</p>
-        <p class="display-2 bg-secondary">Can ciyer2</p>
-        <p class="display-3 bg-success">Can ciyer3</p>
-        <p class="display-4 bg-dark">Can ciyer4</p>
-        <p class="display-5 bg-light">Can ciyer5</p>
-        <p class="display-6 bg-info">Can ciyer6</p>
-        <p class="display-6 bg-link">Can ciyer7</p>
-        <p class="display-7 bg-warning">Can ciyer8</p>
-        <p class="display-7 bg-danger">Can ciyer9</p>
-    </div>
-    <h1 class="text3">Yazilarin arxa fonu</h1>
-    <div class="arxafon">
-        <p class="bg-primary h1">Can ciyer1</p>
-        <p class="bg-secondary h2">Can ciyer2</p>
-        <p class="bg-success h3">Can ciyer3</p>
-        <p class="bg-dark h4">Can ciyer4</p>
-        <p class="bg-light h5">Can ciyer5</p>
-        <p class="bg-info h6">Can ciyer6</p>
-        <p class="bg-link h4">Can ciyer7</p>
-        <p class="bg-warning h5">Can ciyer8</p>
-        <p class="bg-danger h6">Can ciyer9</p>
-    </div>
-    <h1 class="text4">Border</h1>
-    <div class="border">
-        <!-- padding-4-e kimi isleyir -->
-        <!-- marginde-5-e kimi isleyir -->
-        <!-- border verilende bottom ve top vere bilerik
-        amma left ve right vermek olmur -->
-        <p class="bg-primary m-3 p-4 border border-dark rounded-5">Can ciyer1</p>
-        <p class="bg-secondary m-3 p-4 border border-dark rounded-4">Can ciyer2</p>
-        <p class="bg-success m-3 p-4 border border-dark rounded-3">Can ciyer3</p>
-        <p class="bg-dark m-3 p-4 border border-dark rounded-4">Can ciyer4</p>
-        <p class="bg-ligh m-3 p-4 border border-dark rounded-4 border-top-0">Can ciyer5</p>
-        <p class="bg-info m-3 p-4 border border-dark rounded-4">Can ciyer6</p>
-        <p class="bg-link m-3 p-4 border border-dark rounded-4 border-bottom-0">Can ciyer7</p>
-        <p class="bg-warning m-3 p-4 border border-dark rounded-4">Can ciyer8</p>
-        <p class="bg-danger m-3 p-4 border border-dark rounded-4">Can ciyer9</p>
-    </div>
-    <h1 class="text5">enine faiz veririk burda</h1>
-    <div class="efvermek">
-        <div class="bg-success p-3 m-4 w-25">eni 25 faiz</div>
-        <div class="bg-success p-3 m-4 w-50">eni 50 faiz</div>
-        <div class="bg-success p-3 m-4 w-75">eni 75 faiz</div>
-        <div class="bg-success p-3 m-4 w-100">eni 100 faiz</div>
-    </div>
-    <h1 class="text6">hundurluyune faiz veririk burdada</h1>
-    <div style="height:200px;" class="bg-success mb-2 p-4 w-75">
-        <div class="bg-warning p-4 d-inline-block h-25"></div>
-        <div class="bg-warning p-4 d-inline-block h-50"></div>
-        <div class="bg-warning p-4 d-inline-block h-75"></div>
-        <div class="bg-warning p-4 d-inline-block h-100"></div>
-    </div>
-    <h1 class="text7">burda ise ne idi muellim?</h1>
-    <div class="shadow m-4 p-4 bg-info"></div>
-    <h1 class="text8">kubun idare edilmesi sag ve ya sola cekmek</h1>
-    <div style="height:500px;" class="bg-success mb-2 p-4 w-75 vvv">
-        <div class="bg-info p-1 m-1">Birinci</div>
-        <div class="bg-info m-2 p-2">Ikinci</div>
-        <div class="bg-info m-3 p-3">Ucuncu</div>
-        <div class="bg-info p-4 m-4">Dorduncu</div>
-        <div class="bg-info p-5 m-5">Besinci</div>
-    </div>
-    <h1 class="text8">Buttondaki renklerden elave aktiv olan ve olmayan buttonlar</h1>
-    <button class="bg-primary active border rounded-3  v1">Aktiv olan</button><br>
-    <button class="bg-primary disabled border rounded-3  v1">Aktiv olmayan</button>
-    <h1 class="text9">renksiz buttonlar hundur ve enli</h1>
-    <div class="btn-group v2">
-        <button class="btn btn-outline-info">rengsiz</button>
-        <button class="btn btn-outline-info">rengsiz</button>
-        <button class="btn btn-outline-info">rengsiz</button>
-    </div><br><br><br>
-
-    <div class="btn-group-vertical v2">
-        <button class="btn btn-outline-warning">rengsiz</button>
-        <button class="btn btn-outline-warning">rengsiz</button>
-        <button class="btn btn-outline-warning">rengsiz</button>
-    </div>
-    <h1 class="text10">buttondaki yazilarin olcusu ve  birde elave eliyim <br>
-    renkli ve renksiz buttonlar</h1>
-    <button class="btn btn-primary btn-sm"> yazilari KICIK</button> 
-    <button class="btn btn-primary btn-lg">yazilari BOYUK</button>
-    <button class="btn btn-outline-info">rengsiz</button>
-    <button class="btn btn-info">rengli</button>
-    <button class="btn btn-outline-info">rengsiz</button>
-    <button class="btn btn-info">rengli</button>\
-    <h1 class="text11">yazilarin olculeri bir sutun ile veya
-    yazilarin ortada yazilmasi solda ve ya sagda yazilmasi</h1>
-    <p class="text-primary text-start">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio corrupti magni atque beatae officiis a at veritatis molestias tempore provident dolorem odit officia omnis perferendis eligendi repudiandae debitis repellat adipisci, earum itaque accusamus iste enim repellendus ratione. Fugit, a enim magni ad harum odit, labore exercitationem voluptate consectetur quis laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, temporibus ducimus asperiores aspernatur rerum quos officiis ex adipisci explicabo? Praesentium beatae quo quidem accusamus ullam libero ex? Amet sapiente, atque, fugiat sit porro deleniti vitae quidem reiciendis odio praesentium iure.</p>
-
-    <p class="text-success text-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio corrupti magni atque beatae officiis a at veritatis molestias tempore provident dolorem odit officia omnis perferendis eligendi repudiandae debitis repellat adipisci, earum itaque accusamus iste enim repellendus ratione. Fugit, a enim magni ad harum odit, labore exercitationem voluptate consectetur quis laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at dolores iste libero voluptas dicta recusandae ullam possimus nisi impedit alias molestias, architecto dignissimos cumque voluptate ut praesentium! Vero quas quae voluptatem enim iure nobis amet illum consequatur fugit blanditiis.</p>
-
-    <p class="text-danger text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio corrupti magni atque beatae officiis a at veritatis molestias tempore provident dolorem odit officia omnis perferendis eligendi repudiandae debitis repellat adipisci, earum itaque accusamus iste enim repellendus ratione. Fugit, a enim magni ad harum odit, labore exercitationem voluptate consectetur quis laborum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur quidem eaque nobis nesciunt tempora inventore reiciendis sunt sit voluptate placeat dignissimos aut, consequatur architecto? Placeat fuga quia sapiente voluptatibus libero voluptas minus saepe rem recusandae, possimus, dolorem animi dolorum.</p>
-
-    <h1 class="text12">yazilarin nesri ad soyad yazilan yer</h1>
-
-    <div style="height:200px; width:400px;" class="text-primary text-start">
-        <blockquote class="blockqoute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quos repellendus, optio voluptatem vel blanditiis, pariatur fugit itaque ratione provident ad facere, iste dignissimos obcaecati quidem? A reiciendis tempora dolores, libero, veritatis laborum voluptatum sapiente qui officia aut doloremque aliquam suscipit quam! Eum atque expedita qui veniam in enim ratione recusandae, exercitationem consectetur ducimus. Temporibus, porro nostrum. Tenetur sequi porro architecto nesciunt dolorum aliquid quasi cum ipsa? Expedita, nostrum soluta!</blockquote>
-        <footer class="blockqoute-footer">Ferotti</footer>
+    <!-- carousel -->
+    <div class="Container" style="margin-top:50px;" >
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Umid yeri usaq siginacagi</h5>
+                  <p>Səxavətinizlə "Ümid yeri" sığınacağəında yaşayan uşağların həyatını dəyişə bilərsiniz</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sizin hətta 1 manatiiniz onların "SABAHA ÜMİDDİR"</h5>
+                  <p>Uşağların yeri kücələr deyil ki,böyüklərin qəlbidi!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
     </div>
 
-    <h1 class="text13">display blocku ve bloksuzu</h1>
-    <span class="d-block bg-danger p-3">d-block</span>
-    <span class=" bg-danger p-3 v0">d-block</span>
 
-    <h1 class="text14">display inline-block</h1>
-    <div class="bg-primary ">
-        <h3>Ramazan</h3>
+
+      <!-- XERİTEÜ -->
+      <div style="margin-top:1px; padding-bottom:50px;" id="Xerite"></div>
+
+      <!-- UNVAN -->
+      <div id="Elaqe" style="height:580; width:auto;" class="bg-dark">
+        <p>Əlaqə nömrəsi-(+994 12) 556-19-16, (+994 55) 222-02-12, (+994 55) 222-02-03</p>
+        <p><a href="
+            contact@umidyeri.org">E-poçt:contact@umidyeri.org</a></p>
+        <p >Ünvan:İmadəddin Nəsimi, Bakı, Xəzər, AZ1045</p>
     </div>
 
-    <div class="bg-primary d-inline-block">
-        <!-- decription nedi muellim -->
-        <h3>Ramazan</h3>
-        description
-    </div>
 
-    <h1 class="text14">display inline-block invisible</h1>
-    <div class="bg-info m-2 p-4">Ramazan</div>
-    <div class="bg-info bg-danger p-3">Ramazan</div>
-    <div class="bg-info d-inline-block m-7">Ramazan</div>
-    <div class="bg-info d-inline-block">Ramazan</div>
-    <div class="bg-info d-inline-block invisible">bu ruh halinda olandi burda olsada oxu gorsenmir</div>
-    <div class="bg-info d-inline-block ">bu ruh halinda olandi burda olsada oxu gorserdirem</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

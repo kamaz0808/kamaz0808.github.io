@@ -8,66 +8,11 @@ html,body {
     box-sizing: border-box;
 }
 
-h1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#Xerite {
+    height:640px;
+    width:auto;
+    background-image:url(xerite.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
-/* Buttondaki renkler */
-.renk {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height:20px;
-    width:120px;
-    font-size:30px;
-}
-
-.btn {
-    margin-top: 10px;
-}
-
-/* text-direction yeni yazilarin uzun kicik olmsi */
-.text {
-    margin-top:450px;
-}
-
-/* Display yazilarin olcusu 7-ye kimidi */
-
-.display-4 {
-    color: white;
-}
-
-/* kubun idare edilmesi sag ve ya sola cekmek */
-
-.vvv {
-    display: flex;
-    flex-direction:row;
-    height: 100px;
-    width:100px;
-    color: white;
-}
-
-/* Buttondaki renklerden elave aktiv olan ve olmayan buttonlar */
-
-.v1 {
-    height: 50px;
-    width:100px;
-    margin-top: 10px;
-}
-
-/* buttondaki renkli ve renksiz buttonlar */
-
-.v2 {
-    font-size: 50px;
-}
-
-/* display blocku ve bloksuzu */
-
-.text13 {
-    margin-top: 90px;
-}
-
