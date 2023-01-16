@@ -16,3 +16,18 @@ html,body {
     background-size: cover;
     background-position: center;
 }
+
+@media  (max-width:800px){
+    #Xerite {
+        height:440px;
+        width:auto;
+        background-image:url(xerite.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #Elaqe {
+        height:580;
+        width: auto;
+    }
+}
