@@ -1,0 +1,9 @@
+$bgcolor:aqua;
+$textcolor:red;
+
+@mixin flexCenter() {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
