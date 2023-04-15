@@ -7,6 +7,7 @@ let turk = 0.08;
 let rubl = 0.02
 let gur = 0.68;
 let br = '=';
+let ba = 'ab';
 
 
 const kamaz = (a , b) => a * b;
