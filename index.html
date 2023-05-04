@@ -1,181 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        * {
-            padding: 0;
-            margin:0;
-        }
-
-        .anasehife {
-            background-image: url(EX.jpg);
-            background-size: cover;
-            height:851px;
-        }
-
-        h4 {
-            background-color:lawngreen;
-            color: darkblue;
-            width:320px;
-            padding: 30px 15px;
-            display: flex;
-            flex-direction:row;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            left:10px;
-            top: 50px;
-            font-size: 20px;
-            border-radius: 20px;
-
-        }
-
-        /* .Kutu {
-            background-color:lawngreen;
-            color: darkblue;
-            height:600px;
-            width:300px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            position: relative;
-            left:40px;
-            top: 110px;
-            font-size: 20px;
-            border-radius: 10px;
-        } */
-
-        #EXE {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 110px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-
-        #EX1 {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 140px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-
-        #EX2 {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 160px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-
-        #EX3 {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 180px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-
-        #EX4 {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 200px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-        #EX5 {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 220px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-
-        #EX6 {
-            background-color:lawngreen;
-            color: darkblue;
-            height:50px;
-            width:300px;
-            position: relative;
-            left:30px;
-            top: 240px;
-            padding: 5px;
-            display: flex;
-            flex-direction:column;
-            justify-content: space-around;
-            align-items: center;
-            border-radius: 10px;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>KAMAZ MARKET</title>
+    <link rel="shortcut icon" type="x-icon" href="../Proyekt/IMG/market.png">
+    <link rel="stylesheet" href="../Proyekt/market.css">
 </head>
+
 <body>
-    <div class="anasehife">
-        <h4> KAMAZ MMC EXCHANGE</h4>
-        <div class="Kutu">
-            <p id="EXE">AZN</p>
-            <p id="EX1">Dollar</p>
-            <p id="EX2">Evro</p>
-            <p id="EX3">Funtsteling</p>
-            <p id="EX4">Turk</p>
-            <p id="EX5">Rubl</p>
-            <p id="EX6">Gurcu</p>
+    <!-- Header hissesi -->
+    <nav class="bg-danger  navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <!-- Logo hissesi -->
+            <a href="#" class="navbar-brand">
+                <img id="Logo" src="../Proyekt/IMG/market.png" alt="">
+            </a>
+            <!-- Sirketin adi -->
+            <p id="SA">KAMAZ TWINS MARKET</p>
+            <!-- AG yazilarin logosu -->
+            <button class="navbar-toggler" type="button" data-bs-toggler="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Ana sehife</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#yazicontainer" class="nav-link"> Filiallar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#herseycontainer" class="nav-link">Əlaqə nömrəsi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ana sehife -->
+    <div class="container">
+        <div id="yazicontainer">
+            <p class="HM">KAMAZ TWINS MARKET 2005-ci ilden personal iscilerimiz terefinden yuksek seviyyede
+                musterilerimizin xidmetindedi.Her cure Icki markalari ve retro ickilermiz var.Ucuz ve orginaldi.</p>
         </div>
     </div>
-    <script src="kev.js"></script>
+
+    <!-- Filiallar yeni xerite -->
+    <iframe id="Xerite"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.706916112847!2d49.95358627497934!3d40.37102255842159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030657d3bcf2567%3A0x4a291aec63e491ab!2shezi%20aslanov!5e0!3m2!1saz!2saz!4v1682884810502!5m2!1saz!2saz"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <!-- Elaqe nomresi -->
+
+    <div id="herseycontainer">
+        <div class="filial">
+            <ul>FILIALLARIMIZ</ul>
+            <hr>
+            <ul>HƏZİ ASLANOV M</ul>
+            <hr>
+            <ul>NEFÇİLƏR M </ul>
+            <hr>
+            <ul>GƏNCLİK M</ul>
+            <hr>
+            <ul>İÇƏRİŞƏHƏR M</ul>
+            <hr>
+            <ul>SAHİL M</ul>
+            <hr>
+        </div>
+
+        <div class="elaqe">
+            <ul>BAS OFIS</ul>
+            <hr>
+            <ul>+ 994 70 888 77 77</ul>
+            <hr>
+            <ul>+ 994 70 999 77 77</ul>
+            <hr>
+        </div>
+
+        <div id="yardim">
+            <ul>SUALLARINIZ UCUN ELAQE NOMRESI</ul>
+            <hr>
+            <ul>+ 994 12 888 07 07</ul>
+            <hr>
+            <ul>+ 994 70 888 79 79</ul>
+            <hr>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
