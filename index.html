@@ -1,101 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!--Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>My Page Title</title>
+        
+        <link rel="icon" href="/favicon.ico">
+        <link rel="stylesheet" href="../market.css">
+        <link rel="canonical" href="https://mysite.com/mypage">
+        <!--Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>KAMAZ MARKET</title>
-    <link rel="shortcut icon" type="x-icon" href="../Proyekt/IMG/market.png">
-    <link rel="stylesheet" href="../Proyekt/market.css">
-</head>
-
-<body>
-    <!-- Header hissesi -->
-    <nav class="bg-danger  navbar navbar-dark navbar-expand-sm fixed-top">
-        <div class="container-fluid">
-            <!-- Logo hissesi -->
-            <a href="#" class="navbar-brand">
-                <img id="Logo" src="../Proyekt/IMG/market.png" alt="">
+    </head>
+    <body>
+         <!-- Header hissesi -->
+        <nav class="navbar navbar-expand-lg navbar-white bg-dark">
+           <!-- Logo hissesi -->
+           <!-- Sirketin adi -->
+            <a class="navbar-brand" href="#">
+                <img src="IMG/market.png" class="d-inline-block align-top" width="30" height="30" alt="...">KAMAZ TWINS MARKET</a>
             </a>
-            <!-- Sirketin adi -->
-            <p id="SA">KAMAZ TWINS MARKET</p>
-            <!-- AG yazilarin logosu -->
-            <button class="navbar-toggler" type="button" data-bs-toggler="collapse">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#idCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Ana sehife</a>
+             <!-- AG yazilarin logosu -->
+            <div class="collapse navbar-collapse" id="idCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Haqqimizda<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#yazicontainer" class="nav-link"> Filiallar</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Filiallar
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">HƏZİ ASLANOV M</a>
+                            <a class="dropdown-item" href="#">NEFÇİLƏR M</a>
+                            <a class="dropdown-item" href="#">GƏNCLİK M</a>
+                            <a class="dropdown-item" href="#">İÇƏRİŞƏHƏR M</a>
+                            <a class="dropdown-item" href="#">SAHİL M</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Filiallarimizw</a>
+                        </div>
                     </li>
+
                     <li class="nav-item">
-                        <a href="#herseycontainer" class="nav-link">Əlaqə nömrəsi</a>
+                        <a class="nav-link" href="#">Əlaqə</a>
                     </li>
+
+
                 </ul>
+
+                <span class="navbar-text">
+                    Some text
+                </span>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Ana sehife -->
-    <div class="container">
-        <div id="yazicontainer">
-            <p class="HM">KAMAZ TWINS MARKET 2005-ci ilden personal iscilerimiz terefinden yuksek seviyyede
-                musterilerimizin xidmetindedi.Her cure Icki markalari ve retro ickilermiz var.Ucuz ve orginaldi.</p>
-        </div>
-    </div>
+        <main role="main" class="container"> 
+            <div id="twins" class="starter-template">
+                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+            </div>
+        </main>
 
-    <!-- Filiallar yeni xerite -->
-    <iframe id="Xerite"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.706916112847!2d49.95358627497934!3d40.37102255842159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030657d3bcf2567%3A0x4a291aec63e491ab!2shezi%20aslanov!5e0!3m2!1saz!2saz!4v1682884810502!5m2!1saz!2saz"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <!-- Elaqe nomresi -->
-
-    <div id="herseycontainer">
-        <div class="filial">
-            <ul>FILIALLARIMIZ</ul>
-            <hr>
-            <ul>HƏZİ ASLANOV M</ul>
-            <hr>
-            <ul>NEFÇİLƏR M </ul>
-            <hr>
-            <ul>GƏNCLİK M</ul>
-            <hr>
-            <ul>İÇƏRİŞƏHƏR M</ul>
-            <hr>
-            <ul>SAHİL M</ul>
-            <hr>
-        </div>
-
-        <div class="elaqe">
-            <ul>BAS OFIS</ul>
-            <hr>
-            <ul>+ 994 70 888 77 77</ul>
-            <hr>
-            <ul>+ 994 70 999 77 77</ul>
-            <hr>
-        </div>
-
-        <div id="yardim">
-            <ul>SUALLARINIZ UCUN ELAQE NOMRESI</ul>
-            <hr>
-            <ul>+ 994 12 888 07 07</ul>
-            <hr>
-            <ul>+ 994 70 888 79 79</ul>
-            <hr>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-</body>
-
+        <!--Optional JavaScript-->
+        <!--jQuery first, then Popper.js, then Bootstrap JS-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>

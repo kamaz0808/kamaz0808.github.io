@@ -10,105 +10,41 @@ html, body {
 
 /* Header hissesi */
 
-#Logo {
-    height:50px;
-    width:50px;
+.navbar-toggler {
+    color: white;
+    background-color: blue;
 }
 
-.nav-link {
-    margin-left: 20px;
-}
 /* <!-- Sirketin adi --> */
 
-#SA {
-    font-size:18px;
-    margin-top:18px;
-    color:white;
-}
+
 
 /* Ana sehife */
 
-.container {
-    background-image: url(../Proyekt/IMG/twins.jpg);
+#twins {
+    background-image: url(IMG/twins.jpg);
     background-size: cover;
+
     background-repeat: no-repeat;
-    background-position: center;
-    height:563px;
-    width:500px;
+    max-width:685.56px;
+    min-width:393px;
+    min-height:606px;
+    max-height:2490px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 674.4px;
 
-    position: relative;
-    top:76.5px;
 }
+
 
 /* Ana sehifede olan yazilar */
 
-#yazicontainer {
-    height:30px;
-    width:1400px;
 
-    
-    position: relative;
-    top:240.5px;
-    margin-left: -120px;
-    padding-left: 120px;
-    
-}
-
-
-.HM {
-    color:white;
-    display: flex;
-    flex-direction: row;
-}
 
 /* //////////////////////////////////////////////// */
 
-#Xerite {
-    position: relative;
-    top:77.4px;
-    
-    height: 590px;
-    width: 1348.6px;
-}
+
 
 /* Elaqe nomresi */
-
-#herseycontainer {
-    background-color: black;
-    height:610.8px;
-    width: 1348.6px;
-}
-
-.filial {
-    height:600px;
-    width:200px;
-    color: white;
-
-    position: relative;
-    top: 130px;
-    left: 30px;
-}
-
-.elaqe {
-    height:600px;
-    width:200px;
-    color: white;
-
-    position: relative;
-    top: -470px;
-    left: 400px;
-}
-
-#yardim {
-    height:600px;
-    width:300px;
-    color: white;
-    position: relative;
-    top: -1070px;
-    left: 850px;
-}
