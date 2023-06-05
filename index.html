@@ -1,80 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--Required meta tags-->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>KAMAZ TWINS MARKET</title>
-        
-        <link rel="icon" href="/favicon.ico">
-        <link rel="stylesheet" href="../market.css">
-        <link rel="canonical" href="https://mysite.com/mypage">
-        <!--Bootstrap CSS-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    </head>
-    <body>
-         <!-- Header hissesi -->
-        <nav class="navbar navbar-expand-lg navbar-white bg-dark">
-           <!-- Logo hissesi -->
-           <!-- Sirketin adi -->
-            <a class="navbar-brand" href="#">
-                <img src="IMG/market.png" class="d-inline-block align-top" width="30" height="30" alt="...">KAMAZ TWINS MARKET</a>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#idCollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-             <!-- AG yazilarin logosu -->
-            <div class="collapse navbar-collapse" id="idCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Haqqimizda<span class="sr-only">(current)</span></a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Filiallar
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">HƏZİ ASLANOV M</a>
-                            <a class="dropdown-item" href="#">NEFÇİLƏR M</a>
-                            <a class="dropdown-item" href="#">GƏNCLİK M</a>
-                            <a class="dropdown-item" href="#">İÇƏRİŞƏHƏR M</a>
-                            <a class="dropdown-item" href="#">SAHİL M</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Filiallarimizw</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Əlaqə</a>
-                    </li>
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Movie DB</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__search">
+            <form action="#">
+                <input type="text" placeholder="Axtar">
+            </form>
+        </div>
+        <div class="header__logo">
+            <img src="icons/logo.png" alt="logo" width="100px">
+        </div>
+    </header>
+    <main class="promo">
+        <div class="promo__menu">
+            <nav class="promo__menu-list">
+                <ul>
+                    <li><a class="promo__menu-item promo__menu-item_active" href="#">Kinolar</a></li>
+                    <li><a class="promo__menu-item" href="#">Seriallarr</a></li>
+                    <li><a class="promo__menu-item" href="#">Cizgi filmi</a></li>
+                    <li><a class="promo__menu-item" href="#">Kliplər</a></li>
+                    <li><a class="promo__menu-item" href="#">Treylerlər</a></li>
                 </ul>
-
-                <span class="navbar-text">
-                    Some text
-                </span>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+            </nav>
+        </div>
+        <div class="promo__content">
+            <div class="promo__bg">
+                <div class="promo__genre">Komediya</div>
+                <div class="promo__title">MARSLI</div>
+                <div class="promo__descr">YAD PLANETDƏ TƏK BAŞINA YAŞAYAN KOSMANAVT HAQQINDA</div>
+                <div class="promo__ratings">
+                    <span>IMDb: 8.0</span>
+                    <span>Netflix: 7.7</span>
+                </div>
             </div>
-        </nav>
-
-        <main role="main" class="container"> 
-            <div id="twins" class="starter-template">
-                <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+            <div class="promo__interactive">
+                <div>
+                    <div class="promo__interactive-title">Baxılmış kinolar</div>
+                    <ul class="promo__interactive-list">
+                        <li class="promo__interactive-item">LOGAN
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">Titanic
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">Bəyin oğurlanması
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">Xaç atası
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">AVATAR 2
+                            <div class="delete"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="add">
+                        <div class="promo__interactive-title">Yeni film əlavə edin</div>
+                        <span>Filmin adını daxil edin</span>
+                        <input class="adding__input" type="text" placeholder="Artıq baxılıb...?">
+                        <span>Sevimli edək?</span>
+                        <input type="checkbox">
+                        <span class="yes">Bıli!</span>
+                        <button>Təsdiq et</button>
+                    </form>
+                </div>
             </div>
-        </main>
+        </div>
+        <div class="promo__adv">
+            <div class="promo__adv-title">Sponsor reklamları</div>
+            <img src="img/2.png" alt="some picture">
+            <img src="img/3.png" alt="some picture">
+            <img src="img/4.png" alt="some picture">
+        </div>
+    </main>
 
-        <!--Optional JavaScript-->
-        <!--jQuery first, then Popper.js, then Bootstrap JS-->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+    <script src="js/script.js"></script>
+</body>
 </html>
+
