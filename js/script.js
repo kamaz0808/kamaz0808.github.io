@@ -26,6 +26,7 @@ const reklam = document.querySelectorAll('.promo__adv img');
 const janr = document.querySelector('.promo__genre');
 const bgimage = document.querySelector('.promo__bg');
 const kinolar = document.querySelector('.promo__interactive-list');
+
 reklam.forEach(item => {
     item.remove();
 });
@@ -33,7 +34,7 @@ reklam.forEach(item => {
 
 janr.textContent = 'DRAM';
 
-bgimage.style.backgroundimage = 'url(../img/bg.jpg)';
+bgimage.style.backgroundImage = 'url(../img/bg.jpg)';
 
 console.log(kinolar.innerHTML);
 kinolar.innerHTML ='';
