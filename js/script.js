@@ -25,59 +25,26 @@ const movieDB = {
 const reklam = document.querySelectorAll('.promo__adv img');
 const janr = document.querySelector('.promo__genre');
 const bgimage = document.querySelector('.promo__bg');
+const kinolar = document.querySelector('.promo__interactive-list');
 reklam.forEach(item => {
     item.remove();
 });
 
 
-janr.textContent = 'DRAMA';
+janr.textContent = 'DRAM';
 
-bgimage.style.backgroundimage = 'url(../img/bg.jpg)'
+bgimage.style.backgroundimage = 'url(../img/bg.jpg)';
 
-
-
-
-const kinolar = document.querySelectorAll('.promo__interactive-list');
-
+console.log(kinolar.innerHTML);
 kinolar.innerHTML ='';
-
 
 movieDB.movies.sort();
 
-kinolar.movieDB.forEach((kino , i) => {
+movieDB.movies.forEach((kino , i) => {
 kinolar.innerHTML  += `
-<ul class="promo__interactive-list">${i+1}. ${kino}
- <li class="promo__interactive-item">LOGAN
+<li class="promo__interactive-item">${i+1}. ${kino}
       <div class="delete"></div>
     </li>
 
-`
+`;
 });
-
-
-
-
-// siyahi.textContent ='Salam'
-
-// siyahi.innerHTML = `
-// <ul class="siyahi">
-//    <li>Verlisler</li>
-//    <li>Gelecekler</li>
-//    <li>GOrecekler</li>
-//    <li>Neyniyecekler</li>
-//    <li>Edecekler</li>
-//    <li>BElilecekler</li>
-// </ul>
-// `;
-
-
-
-
-
-
-
-
-
-
-
-
