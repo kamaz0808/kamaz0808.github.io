@@ -26,6 +26,35 @@ const reklam = document.querySelectorAll('.promo__adv img');
 const janr = document.querySelector('.promo__genre');
 const bgimage = document.querySelector('.promo__bg');
 const kinolar = document.querySelector('.promo__interactive-list');
+const addForm = document.querySelector('Form.add');
+const addInput = document.querySelector('adding__input');
+const checkbox = document.querySelector('[type ="checkbox"');
+
+addForm.addEventListener('submit' , (e) => {
+
+
+    const newFilm = addInput.value;
+    const favorite = checkbox;
+    movieDB.movies.push(newFilm);
+    sortArr(movieDB.movies);
+});
+
+ const saytDeyis = () => {
+
+};
+    
+ const rreklamPoz = () => {
+
+};
+
+ const sortArr = () => {
+
+};
+
+const yeniMovieYarat= () => {
+
+};
+
 
 reklam.forEach(item => {
     item.remove();
@@ -49,3 +78,9 @@ kinolar.innerHTML  += `
 
 `;
 });
+
+
+saytDeyis();
+rreklamPoz(reklam);
+sortArr(movieDB.movies);
+yeniMovieYarat(kinolar , movies);
